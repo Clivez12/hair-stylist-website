@@ -1,6 +1,33 @@
+# Node modules (both frontend and backend)
 node_modules/
+client/node_modules/
+server/node_modules/
+
+# Logs
 npm-debug.log*
-build/
-dist/
-.DS_Store
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode settings
 .vscode/
+
+# Mac system files
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build outputs
+client/build/
+server/build/
+
+# Optional: IDE/project files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
